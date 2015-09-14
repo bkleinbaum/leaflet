@@ -3,9 +3,11 @@ map.fitBounds([[40.681339, -73.96302],
 	[40.712437, -74.008423]]);
 
 
-L.tileLayer('https://api.tiles.mapbox.com/v4/duncangraham.552f58b0/page.html?access_token=pk.eyJ1IjoiZHVuY2FuZ3JhaGFtIiwiYSI6IlJJcWdFczQifQ.9HUpTV1es8IjaGAf_s64VQ#5/35.675/-92.681', {
-    maxZoom: 18
-}).addTo(map);
+L.mapbox.accessToken = 'pk.eyJ1IjoiYms3NDEiLCJhIjoiZFNVcTNvdyJ9.h8G4i4ib7PicRCiejvZW6g';
+// Replace 'examples.map-i87786ca' with your map id.
+var mapboxTiles = L.tileLayer('https://{s}.tiles.mapbox.com/v3/bk741.09c0a8ed/{z}/{x}/{y}.png').addTo(map);
+
+
  
 
 var benIcon = L.icon({
