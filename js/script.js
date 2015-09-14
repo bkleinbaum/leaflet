@@ -3,7 +3,7 @@ map.fitBounds([[40.681339, -73.96302],
 	[40.712437, -74.008423]]);
 
 
-L.tileLayer('http://{s}.tiles.mapbox.com/v3/examples.map-i875mjb7/{z}/{x}/{y}.png', {
+L.tileLayer('https://api.tiles.mapbox.com/v4/duncangraham.552f58b0/page.html?access_token=pk.eyJ1IjoiZHVuY2FuZ3JhaGFtIiwiYSI6IlJJcWdFczQifQ.9HUpTV1es8IjaGAf_s64VQ#5/35.675/-92.681', {
     maxZoom: 18
 }).addTo(map);
  
